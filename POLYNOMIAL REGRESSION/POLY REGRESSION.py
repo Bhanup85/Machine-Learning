@@ -8,7 +8,7 @@ import pandas as pd
 #************************************************************************************************************************
 
 # Importing the dataset
-dataset = pd.read_csv(r"D:\NIT 10AM\Notes\03 MAR\16th\16th\EMP SAL.csv")
+dataset = pd.read_csv(r"D:\NIT 10AM\Notes\03 MAR\16th\16th\1.POLYNOMIAL REGRESSION\Position_Salaries.csv")
 
 
 X = dataset.iloc[:, 1:2].values
